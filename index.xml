@@ -12,7 +12,7 @@
     <pubDate>Fri, 29 Sep 2023 02:34:40 &#43;0800</pubDate>
     <author>simple</author>
     <guid>https://aj002th.github.io/%E9%9B%B6%E6%88%90%E6%9C%AC%E8%87%AA%E5%BB%BA%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/</guid>
-    <description><![CDATA[方案选择 github pages 提供博客站点 + hugo 提供博客模板 part 1 : Github Pages 官网：GitHub Pages 选择 github pages 的优点就是 github 使用频率高，并且作为全球最大的代码托管平台，也很稳]]></description>
+    <description><![CDATA[方案选择 github pages 提供博客站点 + hugo 提供博客模板 + github actions 自动构建和发布 part 1 : Github Pages 官网：GitHub Pages 选择 github pages 的优点就是 github 使用频率高，并且作为全球最大的]]></description>
 </item>
 </channel>
 </rss>

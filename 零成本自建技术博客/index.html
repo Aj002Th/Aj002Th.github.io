@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <title>零成本自建技术博客 - simple&#39;s NoteBook</title><meta name="Description" content="一些笔记"><meta property="og:title" content="零成本自建技术博客" />
-<meta property="og:description" content="方案选择 github pages 提供博客站点 &#43; hugo 提供博客模板 part 1 : Github Pages 官网：GitHub Pages 选择 github pages 的优点就是 github 使用频率高，并且作为全球最大的代码托管平台，也很稳" />
+<meta property="og:description" content="方案选择 github pages 提供博客站点 &#43; hugo 提供博客模板 &#43; github actions 自动构建和发布 part 1 : Github Pages 官网：GitHub Pages 选择 github pages 的优点就是 github 使用频率高，并且作为全球最大的" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://aj002th.github.io/%E9%9B%B6%E6%88%90%E6%9C%AC%E8%87%AA%E5%BB%BA%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/" /><meta property="og:image" content="https://aj002th.github.io/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-09-29T02:34:40+08:00" />
@@ -14,7 +14,7 @@
 <meta name="twitter:image" content="https://aj002th.github.io/logo.png"/>
 
 <meta name="twitter:title" content="零成本自建技术博客"/>
-<meta name="twitter:description" content="方案选择 github pages 提供博客站点 &#43; hugo 提供博客模板 part 1 : Github Pages 官网：GitHub Pages 选择 github pages 的优点就是 github 使用频率高，并且作为全球最大的代码托管平台，也很稳"/>
+<meta name="twitter:description" content="方案选择 github pages 提供博客站点 &#43; hugo 提供博客模板 &#43; github actions 自动构建和发布 part 1 : Github Pages 官网：GitHub Pages 选择 github pages 的优点就是 github 使用频率高，并且作为全球最大的"/>
 <meta name="application-name" content="simple&#39;s NoteBook">
 <meta name="apple-mobile-web-app-title" content="simple&#39;s NoteBook"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/aj002th.github.io\/%E9%9B%B6%E6%88%90%E6%9C%AC%E8%87%AA%E5%BB%BA%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2\/"
-        },"genre": "posts","wordcount":  556 ,
+        },"genre": "posts","wordcount":  1300 ,
         "url": "https:\/\/aj002th.github.io\/%E9%9B%B6%E6%88%90%E6%9C%AC%E8%87%AA%E5%BB%BA%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2\/","datePublished": "2023-09-29T02:34:40+08:00","dateModified": "2023-09-29T02:34:40+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -103,8 +103,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">零成本自建技术博客</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/Aj002Th/Aj002Th.gitHub.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>simple</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-09-29">2023-09-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 556 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-09-29">2023-09-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1300 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
                     <span>目录</span>
@@ -117,12 +117,14 @@
         <li><a href="#方案选择">方案选择</a></li>
         <li><a href="#part-1--github-pages">part 1 : Github Pages</a></li>
         <li><a href="#part-2--hugo">part 2 : hugo</a></li>
+        <li><a href="#part-3--github-actions">part 3 : Github Actions</a></li>
+        <li><a href="#最终成果">最终成果</a></li>
       </ul>
     </li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><h3 id="方案选择">方案选择</h3>
-<p>github pages 提供博客站点 + hugo 提供博客模板</p>
+<p>github pages 提供博客站点 + hugo 提供博客模板 + github actions 自动构建和发布</p>
 <h3 id="part-1--github-pages">part 1 : Github Pages</h3>
 <p>官网：<a href="https://pages.github.com/" target="_blank" rel="noopener noreffer ">GitHub Pages</a></p>
 <p>选择 github pages 的优点就是 github 使用频率高，并且作为全球最大的代码托管平台，也很稳定，即使是免费提供使用也不用担心跑路的问题，缺点当然就是对于国内的网络访问不算友好</p>
@@ -141,7 +143,7 @@
 <p>安装 git 用于将博客网页上传 Github, 安装 hugo 用于生成博客网页（最好安装extended版本）</p>
 </li>
 <li>
-<p>运行 <code>hugo new site &lt;文件夹名&gt;</code>，生成基本的博客网页代码骨架，同时也会有后续使用的指示</p>
+<p>运行 <code>hugo new site &lt;文件夹名&gt;</code>，创建站点，创建结束后也会有后续使用流程的指示</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -170,14 +172,120 @@
 <p>依据主题配置说明，例如 LoveIt 主题的 <a href="https://hugoloveit.com/" target="_blank" rel="noopener noreffer ">https://hugoloveit.com/</a>，配置 hugo.toml</p>
 </li>
 <li>
-<p>在 content 文件夹下编写 md 文章，运行 <code>hugo new content &lt;FILENAME&gt;</code> 添加博客内容</p>
+<p>在 content 文件夹下编写 md 文章，直接新建 md 文件当然也是可以的，但是推荐运行 hugo new content <FILENAME> 来生成博客文章 md 文件，可以自动添加文章头部的默认元数据配置</p>
 </li>
 <li>
-<p>运行 hugo 指令生成静态博客网站代码</p>
+<p>运行 hugo 指令生成静态博客网站代码，生成结果位于 public 文件夹中</p>
 </li>
 <li>
-<p>上传至 Github Pages 所对应的仓库</p>
+<p>将 public 文件夹中的内容上传至 Github Pages 所对应的仓库</p>
 </li>
+</ol>
+<h3 id="part-3--github-actions">part 3 : Github Actions</h3>
+<p>github actions 是 github 自带的 CICD 系统，可以直接搭配使用</p>
+<p>目前我们的博客其实是可以正常使用了，但是每次修改完内容后都需要手动运行 hugo 命令生成静态网页文件，然后再手动将 public 文件夹下的内容上传至 github pages 所对应的仓库，较为繁琐，可以说用 github actions 来自动化这部分流程</p>
+<p>我们最终需要两个 github 仓库，一个我们称之为 博客源仓库，这里存储博客的内容和 hugo 的配置等，另一个是 github pages 所对应的的仓库</p>
+<p>最终的效果是：我们在本地的站点中写博客，然后推送至 博客源仓库，触发博客源仓库的 github actions，自动生成静态网页文件并推送至 github pages 仓库</p>
+<p>步骤如下：</p>
+<ol>
+<li>
+<p>添加 github actions 配置</p>
+<p>配置需要放置在仓库目录 <code>.github/workflows</code> 下，以 <code>.yml</code> 为后缀</p>
+<p>下面是一个例子，可以按需修改</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">deploy</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">push</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">workflow_dispatch</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">schedule</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c"># Runs everyday at 8:00 AM</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">cron</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;0 0 * * *&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">build</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Checkout</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">submodules</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">fetch-depth</span><span class="p">:</span><span class="w"> </span><span class="m">0</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup Hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-hugo@v2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">hugo-version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;latest&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build Web</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy Web</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-gh-pages@v3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">PERSONAL_TOKEN</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.PERSONAL_TOKEN }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">EXTERNAL_REPOSITORY</span><span class="p">:</span><span class="w"> </span><span class="l">Aj002Th/Aj002Th.github.io</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">PUBLISH_BRANCH</span><span class="p">:</span><span class="w"> </span><span class="l">master</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">PUBLISH_DIR</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                  </span><span class="nt">commit_message</span><span class="p">:</span><span class="w"> </span><span class="l">${{ github.event.head_commit.message }}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>创建 Token，需要 workflows 和 repo 权限</p>
+<p>上述配置中使用到了一个变量 <code>secrets.PERSONAL_TOKEN</code> ，因为我们需要从博客仓库推送到外部 GitHub Pages 仓库，需要特定权限，要在 GitHub 账户下 <code>Setting - Developer setting - Personal access tokens</code> 下创建一个 Token，至少需要 workflows 和 repo 权限</p>
+</li>
+<li>
+<p>配置 Token 到博客源仓库</p>
+<p>配置后复制生成的 Token（需要注意的是：Token 只会出现一次），然后在我们博客源仓库的 <code>Settings - Secrets - Actions</code> 中添加 <code>PERSONAL_TOKEN</code> 环境变量为刚才的 Token，这样 GitHub Action 就可以获取到 Token 了</p>
+</li>
+<li>
+<p>推送代码</p>
+</li>
+</ol>
+<h3 id="最终成果">最终成果</h3>
+<ol>
+<li>在本地的站点仓库中使用 md 编辑器写文章，并通过 hugo serve 命令预览生成的静态网页效果</li>
+<li>完成文章内容后 git push 到 github 上的博客源仓库，同时触发 github actions 构建和生成最新的静态网页代码并发布到 github pages 所在仓库中</li>
+<li>可以访问 github pages 查看最新博客内容</li>
 </ol>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
