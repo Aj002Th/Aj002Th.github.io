@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://next.emergencyexit.xyz/
+Host: https://aj002th.github.io/
 
 # Sitemaps
-Sitemap: https://next.emergencyexit.xyz/sitemap.xml
+Sitemap: https://aj002th.github.io/sitemap.xml
