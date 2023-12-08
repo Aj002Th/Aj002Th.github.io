@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://aj002th.github.io</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-07T08:15:51.419Z</lastmod></url>
-<url><loc>https://aj002th.github.io/search</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-07T08:15:51.419Z</lastmod></url>
-<url><loc>https://aj002th.github.io/test something</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-07T08:15:51.419Z</lastmod></url>
-<url><loc>https://aj002th.github.io/adding-http-response-headers-to-a-netlify-static-website</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-07T08:15:51.419Z</lastmod></url>
-<url><loc>https://aj002th.github.io/applying-the-active-class-for-the-current-page-in-jekyll</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-07T08:15:51.419Z</lastmod></url>
-<url><loc>https://aj002th.github.io/top-plugins-for-wordpress-websites</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-07T08:15:51.419Z</lastmod></url>
-<url><loc>https://aj002th.github.io/about</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-07T08:15:51.419Z</lastmod></url>
-<url><loc>https://aj002th.github.io/experiment</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-07T08:15:51.419Z</lastmod></url>
-<url><loc>https://aj002th.github.io/playground</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-07T08:15:51.419Z</lastmod></url>
-<url><loc>https://aj002th.github.io/next-for-vercel</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-07T08:15:51.419Z</lastmod></url>
-<url><loc>https://aj002th.github.io/tag/Book</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-07T08:15:51.419Z</lastmod></url>
-<url><loc>https://aj002th.github.io/tag/Jekyll</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-07T08:15:51.419Z</lastmod></url>
-<url><loc>https://aj002th.github.io/tag/Website</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-07T08:15:51.419Z</lastmod></url>
-<url><loc>https://aj002th.github.io/tag/Cooking</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-07T08:15:51.419Z</lastmod></url>
+<url><loc>https://aj002th.github.io</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-08T01:17:20.983Z</lastmod></url>
+<url><loc>https://aj002th.github.io/search</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-08T01:17:20.983Z</lastmod></url>
+<url><loc>https://aj002th.github.io/tag/Book</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-08T01:17:20.983Z</lastmod></url>
+<url><loc>https://aj002th.github.io/tag/Jekyll</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-08T01:17:20.983Z</lastmod></url>
+<url><loc>https://aj002th.github.io/tag/Website</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-08T01:17:20.983Z</lastmod></url>
+<url><loc>https://aj002th.github.io/tag/Cooking</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-08T01:17:20.983Z</lastmod></url>
+<url><loc>https://aj002th.github.io/test something</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-08T01:17:20.983Z</lastmod></url>
+<url><loc>https://aj002th.github.io/adding-http-response-headers-to-a-netlify-static-website</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-08T01:17:20.983Z</lastmod></url>
+<url><loc>https://aj002th.github.io/applying-the-active-class-for-the-current-page-in-jekyll</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-08T01:17:20.983Z</lastmod></url>
+<url><loc>https://aj002th.github.io/top-plugins-for-wordpress-websites</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-08T01:17:20.983Z</lastmod></url>
+<url><loc>https://aj002th.github.io/about</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-08T01:17:20.983Z</lastmod></url>
+<url><loc>https://aj002th.github.io/experiment</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-08T01:17:20.983Z</lastmod></url>
+<url><loc>https://aj002th.github.io/playground</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-08T01:17:20.983Z</lastmod></url>
+<url><loc>https://aj002th.github.io/next-for-vercel</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2023-12-08T01:17:20.983Z</lastmod></url>
 </urlset>
